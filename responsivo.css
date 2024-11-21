@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:1000px) and (max-width:1120px){
+    .container{
+        padding: 0px 30px 0px 30px;
+      }
+}
+
+@media (max-width:1000px) {
+
+    .container{
+        padding: 0px 30px 0px 30px;
+    }
+
+    header nav ul li{
+        display: none;
+    }
+    .content{
+        grid-template-columns: 1fr;
+    }
+
+    .imagem{
+        float: none;
+        position: absolute;
+        margin-right: none;
+        width: 100%;
+    }
+
+    .h1inicio{
+        justify-self: start;
+        width: 100%;
+        font-size: 35px;
+    }
+    .imagens{
+        justify-items: center;
+    }
+
+    .imagens .img1{
+        margin-bottom: 30px;
+       width: 600px;
+       height: 320px;
+    }
+    .imagens .img2{
+        width: 260px;
+        margin-left: 40px;
+        align-self: flex-start;
+    }
+    
+    .imagens .img3{
+        width: 350px;
+    }
+
+    .texto-foto{
+        justify-self: center;
+        align-self: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .h1grande{
+        grid-row: 7;
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .porcentagem div{
+        width: 100%;
+    }
+
+    #img1{
+        width: 120px;
+    }
+    
+    #img2{
+        width: 120px;
+    }
+    #img3{
+        width: 200px;
+    }
+    
+    #img4{
+        width: 180px;
+    }
+    
+    #img5{
+        width: 120px;
+    }
+}
+
+@media (max-width:780px){
+
+    .container{
+        padding: 0px 60px 0px 60px;
+    }
+
+    .opcoes div{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .inicio{
+        width: 100%;
+    }
+
+    .inicio h1{
+        font-size: 50px;
+    }
+
+    .h1inicio{
+        margin-top: 400px;
+        font-size: 30px;
+    }
+
+    .imagens .img1,.img2,.img3{
+        width: 100%;
+    }
+
+    .imagens div{
+        flex-flow: column wrap;
+    }
+
+    .imagens div .img2,.img3{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .fotos{
+        flex-wrap: wrap;
+    }
+
+    .fotos #img1,#img2,#img3,#img4,#img5{
+        width: 100%;
+    }
+
+    .clientes h1{
+        font-size: 25px;
+    }
+
+    .ceo .p{
+        font-size: 22px;
+    }
+
+    .caixa p{
+        font-size: 30px;
+        font-weight: 300;
+        padding: 20px;
+    }
+
+    .feedbaks h1{
+        font-size: 30px;
+    }
+
+    .avaliacoes div{
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .avaliacoes .avaliacao2,.divsombra{
+        margin-top: 30px;
+    }
+
+    .entregas div{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .entregas div + div{
+        border-left: none;
+    }
+
+    .entregas div .icone h2{
+        margin-bottom: 0px;
+    }
+
+    .formulario{
+        flex-wrap: wrap;
+    }
+
+    form .email{
+        width: 100%;
+    }
+    
+    form .inscricao{
+        width: 100%;
+    }
+
+    .inform-final div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .inform-final div + div{
+        border-left: none;
+     }
+}
+
+@media (max-width:540px){
+    .container{
+        padding: 0px 10px 0px 10px;
+    }
+
+    .entregas div .icone span{
+       margin-left: 0px;
+    }
+}
